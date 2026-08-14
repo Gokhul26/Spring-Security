@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
+    //sample test endpoint
     @GetMapping("/hello")
     public String hello() {
         return "Hello from Spring Security!";
